@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    border: 5px solid red;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+header {
+    background-color: deeppink;
+    padding-bottom: 25px;
+}
+
+.header_white {
+    width: 70%;
+    padding: 25px;
+    background-color: white;
+    margin: 25px auto 0;
+}
+
+.header_black {
+    width: 80%;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: grey;
+    padding-bottom: 15px;
+}
+
+.nav_item {
+    width: 25%;
+    float: left;
+    height: 150px;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-orange, .block_center-right {
+    background-color: orange;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.block_item {
+    width: calc(100% / 3);
+    height: 500px;
+    float: left;
+}
+
+.left {
+    width: 80%;
+    margin: 50px auto 0;
+}
+
+.a-left, .b-left {
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+
+.a-left {
+    background-color: deeppink;
+}
+
+.b-left, .block_center-center {
+    background-color: yellow;
+}
+
+.left h5 {
+    margin-bottom: 25px;
+}
+
+.block_center-item {
+    float: left;
+    width: 33.33%;
+    height: 450px;
+}
+
+.block_center {
+    position: relative;
+}
+
+.block_center-wrap {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.block_center-center {
+    position: relative;
+}
+
+.a-c {
+    position: absolute;
+    width: 50%;
+    height: 400px;
+    background-color: orange;
+    bottom: 0;
+}
+
+.b-c {
+    position: absolute;
+    width: 50%;
+    height: 350px;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+}
+
+.block_right {
+    background-color: skyblue;
+    position: relative;
+}
+
+.block_right-item {
+    position: absolute;
+    width: 33.33%;
+    height: 200px;
+}
+
+.block_right-blue {
+    background-color: blue;
+    bottom: 50px;
+}
+
+.block_right-yellow {
+    background-color: yellow;
+    left: 50%;
+    margin-left: -16.66%;
+    top: 50%;
+    margin-top: -100px;
+}
+
+.block_right-orange {
+    background-color: orange;
+    right: 0;
+    top: 50px;
+}
+
+.block_right-orange div {
+    position: absolute;
+    padding: 5px 10px;
+    background-color: black;
+}
+
+
+
+.block_right-orange div:first-child {
+    bottom: 50px;
+}
+
+.block_right-orange div:last-child {
+    top: 50px;
+    right: 0;
+}
