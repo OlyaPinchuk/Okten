@@ -154,3 +154,9 @@
     background-color: rgba(170, 170, 170, 0.507);
     transition: 1s;
 }
+
+
+.fas fa-search {
+    height: 15px;
+    width: 15px;
+}
