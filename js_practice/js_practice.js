@@ -1,5 +1,5 @@
 
-// HOMEWORK 1
+    // HOMEWORK 1 - присвоить каждому из следующих значений свою переменную: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false Вывести каждую при помощи console.log , alert, document.write
 
 // let v1 = 'owu';
 // let v2 = 'com';
@@ -14,7 +14,7 @@
 // let v11 = true;
 // let v12 = false;
 
-// HOMEWORK 2
+    // HOMEWORK 2 - переопределить каждую переменную из задания 1 дав им произвольные значения Вывести каждую при помощи console.log , alert, document.write
 
 // v1 = 'Hi';
 // v2 = 'you';
@@ -77,7 +77,7 @@
 // console.log(v12)
 // document.write(v12)
 
-// HOMEWORK 3
+    // HOMEWORK 3 - Создать 3 числовых и 3 стринговых константы. Вывести каждую при помощи console.log , alert, document.write
 
 // const num1 = 12;
 // const num2 = 23;
@@ -111,7 +111,7 @@
 // console.log(str3);
 // document.write(str3);
 
-// HOMEWORK 4
+    // HOMEWORK 4 - при помощи 3х разных prompt() получить 3 слова которые являются вашими ФИО. Для фамилии имени и отчества создать разные переменные. Вывести каждую при помощи console.log , alert, document.write
 
 // let last_name = prompt('Прізвище:');
 // let name = prompt("Ім'я:");
@@ -130,7 +130,7 @@
 // document.write(father_name);
 
 
-// HOMEWORK 5
+    // HOMEWORK 5 - Взять переменные из задания 4 и сконкатенировать их в одной переменной person.
 
 // let last_name = prompt('Прізвище:');
 // let name = prompt("Ім'я:");
@@ -141,7 +141,7 @@
 
 // HOMEWORK 6
 
-// HOMEWORK 7
+    // HOMEWORK 7 при помощи prompt() получить 3 числа. Привести их к числовому типу при помощи +. вывести их в консоль.
 
 // let num1 = +prompt('Enter a number:');
 // let num2 = +prompt('Enter a number:');
@@ -152,7 +152,7 @@
 // console.log(num3);
 
 
-// HOMEWORK 8
+    // HOMEWORK 8  при помощи prompt() получить 4 числа. Привести их к числовому типу при помощи parseInt. Сложить их между собой записав результат в переменную result и вывести в консоль браузера
 
 // let num1 = parseInt(prompt('Enter a number:'));
 // let num2 = parseInt(prompt('Enter a number:'));
@@ -163,7 +163,7 @@
 // console.log(result);
 
 
-// HOMEWORK 9
+    // HOMEWORK 9 при помощи prompt()  получить 3 числа с плавающей точекой. при помощи parseFloat привести их к соответсвующему типу. Сложить их между собой записав результат в переменную result и вывести в консоль браузера
 
 // let num1 = parseFloat(prompt('Enter a number:'));
 // let num2 = parseFloat(prompt('Enter a number:'));
@@ -173,7 +173,7 @@
 // console.log(result);
 
 
-// HOMEWORK 10
+    // HOMEWORK 10 при помощи prompt()  получить 3 числа с плавающей точекой. Округлить их при помощи Math.round Сложить их между собой записав результат в переменную  и вывести в консоль браузера
 
 // let num1 = Math.round(prompt('Enter a number:'));
 // let num2 = Math.round(prompt('Enter a number:'));
@@ -182,7 +182,7 @@
 // let result = num1 + num2 + num3;
 // console.log(result);
 
-// HOMEWORK 11
+    // HOMEWORK 11  при помощи prompt()  получить 2 целых числа. Привести их к целочисленному типу. Первое число - это число которое будут возводить в степень. Второе число - это число которое является степенью. При помощи Math.pow возвести первое число в степень второго числа.
 
 // let num1 = parseInt(prompt('Enter a number:'));
 // let num2 = parseInt(prompt('Enter a number:'));
@@ -191,7 +191,7 @@
 // let result = Math.pow(num1, num2);
 // console.log(result);
 
-// HOMEWORK 12
+    // HOMEWORK 12  При помощи оператора опредеоения типа typeof определить типы следующих переменных и вывести их в консоль let a = 100; let b = '100'; let c = true; let d = undefined;
 
 // let a = 100; 
 // let b = '100'; 
@@ -203,7 +203,9 @@
 // console.log(typeof c);
 // console.log(typeof d);
 
-// HOMEWORK 13,14,15
+    // HOMEWORK 13,14,15 Поставьте соответствующий оператор в выражениях что бы получился соответсвующий результат.
+    //  В одинаковых выражениях в задании не использовать два одинаковых оператора.
+    //  Каждое выражение вложить в свою переменную
 
 // let a = 5 < 6 
 // // -> true
@@ -243,6 +245,35 @@
 
 
 
+    // ADDITIONAL 1 Три різних числа вводяться через prompt().
+    // За допомоги if else вивести іх в порядку зростання. (відсортувати по зростанню)
+
+// let n1 = +prompt('>>')
+// let n2 = +prompt('>>')
+// let n3 = +prompt('>>')
+
+// if (n1 < n2 && n2 < n3) {
+//     console.log(n1, n2, n3)
+
+// } else if (n1 < n3 && n3 < n2) {
+//     console.log(n1, n3, n2)
+
+// } else if (n2 < n1 && n1 < n3) {
+//     console.log(n2, n1, n3)
+
+// } else if (n2 < n3 && n3 < n1) {
+//     console.log(n2, n3, n1)
+
+// } else if (n3 < n1 && n1 < n2) {
+//     console.log(n3, n1, n2)
+
+// } else if (n3 < n2 && n2 < n1) {
+//     console.log(n3, n2, n1)
+
+// } else {
+//     console.log('Error')
+
+// }
 
 
 
@@ -269,14 +300,17 @@
 
 
 
-// CLASS1
+
+
+
+    // CLASS1
 
 // let str = 'Hi'
 // let n = 45
 // console.log(typeof n)
 
 
-// CLASS2
+    // CLASS2
 
 // let a1 = 5 + 3;
 // let a2 = 5 - 3;
@@ -284,7 +318,7 @@
 // let a4 = 5 / 3;
 // let a5 = 5 % 3;
 
-// CLASS3
+    // CLASS3
 
 // let a6 = 5 % 3;
 // let a7 = 3 % 5;
@@ -366,34 +400,6 @@
 // let age = prompt('Enter your age:');
 // alert('Good evening ' + name + ' ' + last_name + ' my congrats you are ' + age + '!')
 
-// ADDITIONAL 1
-
-// let n1 = +prompt('>>')
-// let n2 = +prompt('>>')
-// let n3 = +prompt('>>')
-
-// if (n1 < n2 && n2 < n3) {
-//     console.log(n1, n2, n3)
-
-// } else if (n1 < n3 && n3 < n2) {
-//     console.log(n1, n3, n2)
-
-// } else if (n2 < n1 && n1 < n3) {
-//     console.log(n2, n1, n3)
-
-// } else if (n2 < n3 && n3 < n1) {
-//     console.log(n2, n3, n1)
-
-// } else if (n3 < n1 && n1 < n2) {
-//     console.log(n3, n1, n2)
-
-// } else if (n3 < n2 && n2 < n1) {
-//     console.log(n3, n2, n1)
-
-// } else {
-//     console.log('Error')
-
-// }
 
 
 
