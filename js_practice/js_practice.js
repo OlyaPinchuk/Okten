@@ -402,9 +402,27 @@
 
 
 
+// HOME
 
 
+// let a = 1;
+// let b = 1;
+// let end = 50;
+// // console.log(a, b)
 
+// for (let c = 0; c < end; c = a + b ) {
+    
+    
+//     // if (c >= end) {
+//     //     break;
+//     //     }
+
+//     console.log(c);
+//     a = b;
+//     b = c;
+
+
+// }
 
 
 
