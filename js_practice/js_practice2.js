@@ -1,5 +1,10 @@
+// файл html на github Okten/js_practice/js_practice.html
 
-    // 2 HOMETASK 1
+   
+   
+   
+   
+   // 2 HOMETASK 1
     // --створити масив та вивести його в консоль:
     // - з 5 числових значень
     // - з 5 стічкових значень

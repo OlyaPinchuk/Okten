@@ -1,4 +1,10 @@
+// файл html на github Okten/js_practice/js_practice.html
 
+    
+    
+    
+    
+    
     // HOMEWORK 1 - присвоить каждому из следующих значений свою переменную: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false Вывести каждую при помощи console.log , alert, document.write
 
 // let v1 = 'owu';
