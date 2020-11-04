@@ -498,3 +498,9 @@
 // }
 // console.log(usersWithCities)
 
+// let user1 = usersWithId[0]
+// let add1 = citiesWithId[0]
+
+// console.log(user1)
+// user1['adress'] = add1
+// console.log(user1)
