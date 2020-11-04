@@ -1,3 +1,6 @@
+    // файл html на github Okten/js_practice/js_practice.html
+
+
     // 4 HOMETASK 1  створити функцію яка виводить масив
 
 // let m = []
