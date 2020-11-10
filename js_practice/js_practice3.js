@@ -471,7 +471,7 @@
 // }
 
 
-    // 3 HOMETASK 19 Дано 2 масиви з рівною кількістю об'єктів.
+// MAKE CHANGES  // 3 HOMETASK 19 Дано 2 масиви з рівною кількістю об'єктів.
     // З'єднати в один об'єкт користувача та місто з відповідними "id" та "user_id" .
     // Записати цей об'єкт в новий масив 
     // Частковий приклад реультату:
@@ -504,3 +504,51 @@
 // console.log(user1)
 // user1['adress'] = add1
 // console.log(user1)
+
+
+
+
+    // при умові, що в масиві лише одне унікальне
+
+// function uniqueNumber(array) {
+    
+//     for (let outer of array){
+//         let counter =0;
+    
+//         for (let inner of array){
+//             if (outer == inner){
+//             counter++;
+//             }
+//         }   
+
+//         if (counter == 1) {
+//             unique = outer;
+//             return outer;;
+//         }
+//     }
+// }  
+    
+// console.log(uniqueNumber([1, 2, 3, 6, 1, 2, 3]));
+
+
+
+    // якщо в масиві декілька унікальних
+
+// function uniqueNumber(array) {
+//     let unique = [];
+//     for (let outer of array){
+//         let counter = 0;
+    
+//         for (let inner of array){
+//             if (outer == inner){
+//             counter++;
+//             }
+//         }
+
+//         if (counter == 1) {
+//             unique.push(outer);
+//         }
+//     }
+//     return unique;
+// }
+// console.log(uniqueNumber([1, 2, 3, 4, 1, 2, 3, 5, 8, 10, 55]));
