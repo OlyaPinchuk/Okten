@@ -51,6 +51,8 @@
 // console.log(div)
 
 
+
+    // 5 HOMETASK 3
     // Створити об'єкт car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
     // -- drive () - яка виводить в консоль "їдемо зі швидкістю {максимальна швидкість} на годину"
     // -- info () - яка виводить всю інформацію про автомобіль
@@ -94,7 +96,7 @@
 // car.addDriver({name: 'Anna', age: 44});
 
 
-
+    // 5 HOMETASK 4
     // Створити функцію конструктор яка дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
     // -- drive () - яка виводить в консоль "їдемо зі швидкістю {максимальна швидкість} на годину"
     // -- info () - яка виводить всю інформацію про автомобіль
@@ -143,6 +145,7 @@
 // myCar.addDriver({name: 'Jack', age: 55});
 
 
+    // 5 HOMETASK 5
     // - Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
     // -- drive () - яка виводить в консоль "їдемо зі швидкістю {максимальна швидкість} на годину"
     // -- info () - яка виводить всю інформацію про автомобіль
@@ -192,178 +195,92 @@
 // myCar.changeYear(2020)
 // myCar.addDriver({name: 'Nick', age: 30})
 
+
+
+    // 5 HOMETASK 6
     // -створити класс попелюшка з полями ім'я, вік, розмір ноги
     // --Створити 10 попелюшок , покласти їх в масив
     // --Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
     // -- за допоиоги циклу знайти яка попелюшка повинна бути з принцом
 
-    // class Cinderella {
-    //     constructor(name, age, footSize) {
-    //         this.name = name;
-    //         this.age = age;
-    //         this.footSize = footSize;
-    //     }
-    // }
-    // let listOfCinderellas = [];
+// class Cinderella {
+//     constructor(name, age, footSize) {
+//         this.name = name;
+//         this.age = age;
+//         this.footSize = footSize;
+//     };
+// };
+
+// let listOfCinderellas = [];
+// let girlsNames = ['Emma', 'Anna', 'Ella', 'Jo', 'Jade', 'Fay', 'Some', 'Jay', 'Jordi']
+// let girlsAge = 20;
+// let girlsFoot = 32;
+// for (let i = 0; i < 10; i++){
+//     let girl = new Cinderella (girlsNames[i], girlsAge + i, girlsFoot + i);
+//     listOfCinderellas.push(girl);
+// };
     
-    // let first = new Cinderella ('Emma', 20, 36);
-    // listOfCinderellas.push(first)
     
-    // let second = new Cinderella ('Anna', 23, 37);
-    // listOfCinderellas.push(second);
+// class Prince {
+//     constructor(name, age, foundShoeSize) {
+//         this.name = name;
+//         this.age = age;
+//         this.foundShoeSize = foundShoeSize;
+//     };
+// };
     
-    // let third = new Cinderella ('Ella', 22, 39);
-    // listOfCinderellas.push(third);
+// let prince = new Prince ('Jack', 33, 35);
     
-    // let fourth = new Cinderella ('Elli', 24, 39);
-    // listOfCinderellas.push(fourth);
+// for (let outer of listOfCinderellas) {
+//     if (outer['footSize'] == prince['foundShoeSize']){
+//         console.log(`Found a couple: ${outer.name} and ${prince.name}`)
+//     };  
+// };
     
-    // let fifth = new Cinderella ('Jo', 25, 38);
-    // listOfCinderellas.push(fifth);
     
-    // let sixth = new Cinderella ('Fen', 30, 35);
-    // listOfCinderellas.push(sixth);
     
-    // let seventh = new Cinderella ('Fay', 28, 34);
-    // listOfCinderellas.push(seventh);
-    
-    // let eight = new Cinderella ('Some', 34, 32);
-    // listOfCinderellas.push(eight);
-    
-    // let nineth = new Cinderella ('Jay', 44, 39);
-    // listOfCinderellas.push(nineth);
-    
-    // let tenth = new Cinderella ('Jordi', 54, 37);
-    // listOfCinderellas.push(tenth);
-    
-    // console.log(listOfCinderellas);
-    
-    // class Prince {
-    //     constructor(name, age, foundShoeSize) {
-    //         this.name = name;
-    //         this.age = age;
-    //         this.foundShoeSize = foundShoeSize;
-    //     };
-    // };
-    
-    // let prince = new Prince ('Jack', 33, 35)
-    // console.log(prince)
-    
-    // for (let outer of listOfCinderellas) {
-    //     if (outer['footSize'] == prince['foundShoeSize'])
-    //         console.log('Found')
+    // 5 HOMETASK 7 
+    // --створити функцію конструктор попелюшка з полями ім'я, вік, розмір ноги
+    // --Створити 10 попелюшок , покласти їх в масив
+    // --Сторити об'єкт типу "принц" за допомоги функції конструктора з полями ім'я, вік, туфелька яку він знайшов, та функцію "пошук попелюшки"
+    // -- функція повинна приймати масив попелюшок, та шукає ту котра йому підходить
         
-    // }
+// class Cinderella {
+//     constructor(name, age, footSize) {
+//         this.name = name;
+//         this.age = age;
+//         this.footSize = footSize;
+//     };
+// };
+
+// let listOfCinderellas = [];
+// let girlsNames = ['Emma', 'Anna', 'Ella', 'Jo', 'Jade', 'Fay', 'Some', 'Jay', 'Jordi']
+// let girlsAge = 20;
+// let girlsFoot = 32;
+// for (let i = 0; i < 10; i++){
+//     let girl = new Cinderella (girlsNames[i], girlsAge + i, girlsFoot + i);
+//     listOfCinderellas.push(girl);
+// };
     
+// class Prince {
+//     constructor(name, age, foundShoeSize) {
+//         this.name = name;
+//         this.age = age;
+//         this.foundShoeSize = foundShoeSize;
+//     };
+// };
     
+// let prince = new Prince ('Jack', 33, 35);
+
+// function findCinderella(arrayOfCinderellas) {
+
+//     for (let outer of arrayOfCinderellas) {
+//         if (outer['footSize'] == prince['foundShoeSize']){
+//             console.log(`Found a couple: ${outer.name} and ${prince.name}`)
+//         };  
+//     };
+// };
+
+// findCinderella(listOfCinderellas);
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    // / class Car {
-        //     constructor(model) {
-        //         this.model = model;
-        //     }
-        
-        //     showInfo(c="upper") {
-        //         if(c == "upper") {
-        //             console.log(`Model in upperCase is ${this.model.toUpperCase()}`);
-        //         } else {
-        //             console.log(`Model is ${this.model}`);
-        //         }
-        
-        //         // return this;
-        //     }
-        
-        //     bip() {
-        //         console.log("BIP BIP");
-        //     }
-        // }
-        
-        // let myCar = new Car("bmw");
-        // console.log(myCar.model);
-        // myCar.showInfo();
-        // myCar.showInfo("lower");
-        // myCar.bip();
-        
-        
-        // function MyCar(model) {
-        //     this.model = model;
-        
-        //     this.showInfo = function(c="upper") {
-        //         if(c == "upper") {
-        //             console.log(`Model in upperCase is ${this.model.toUpperCase()}`);
-        //         } else {
-        //             console.log(`Model is ${this.model}`);
-        //         }
-        
-        //         // return this;
-        //     }
-        
-        //     this.bip = function() {
-        //         console.log("BIP BIP");
-        //     }
-        // }
-        
-        // let myAnotherCar = new MyCar("audi");
-        // console.log(myAnotherCar.model);
-        // myAnotherCar.showInfo();
-        // myAnotherCar.showInfo("lower");
-        // myAnotherCar.bip();
+     

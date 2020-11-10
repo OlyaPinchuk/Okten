@@ -84,6 +84,10 @@
 // console.log('min: ' + min_value2)
 
 
+
+
+// NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW
+// =======================================================================================================================================================================
     // 4 HOMETASK 6 - створити функцію яка виводить масив
 // let my_arr = []
 // function my_func3(array) {
@@ -102,11 +106,10 @@
 //     for (let current of array){
 //         if (current > max) {
 //             max = current;
-
-//         }
-//     }
+//         };
+//     };
 //     return max;
-// }
+// };
 
 // console.log(my_func3(my_arr));
 
@@ -119,17 +122,16 @@
 //     for (let current of array) {
 //         if (current < min){
 //             min = current;
-//         }
-//     }
+//         };
+//     };
 //     return min;
 // };
-
 
 // console.log(my_func4(my_arr));
 
      // 4 HOMETASK 9 створити функцію яка приймає масив чисел та складає значення елементів масиву та повертає його.
 
-// TODO: rewrite simpler implementation with one var sum
+
 // let my_arr = [3, 7, 10, 44, 345, 2];
 
 // function my_func5(array) {
@@ -151,11 +153,27 @@
 // console.log(my_func5(my_arr))
 
 
+    // оптимізовано:
+// let my_arr = [3, 7, 10, 44, 345, 2];
+
+// function my_func5(array) {
+//     let sum = 0
+
+//     for (a = 0; a < array.length; a++){
+        
+//         sum = sum + array[a];
+
+//     }
+//     console.log(sum);
+//     return array;
+// }
+
+// console.log(my_func5(my_arr))
+
 
 
     // 4 HOMETASK 10 створити функцію яка приймає масив чисел та повертає середнє арифметичне його значень.
 
-// TODO: rewrite simpler implementation with one var sum
 
 // let my_arr = [3, 7, 10, 44, 345, 2];
 
@@ -177,14 +195,34 @@
 
 // my_func6(my_arr);
 
+
+
+    // оптимізовано:
+// let my_arr = [3, 7, 10, 44, 345, 2];
+
+// function my_func5(array) {
+//     let sum = 0
+
+//     for (a = 0; a < array.length; a++){
+        
+//         sum = sum + array[a];
+
+//     }
+//     console.log(sum/array.length);
+// }
+
+// my_func5(my_arr);
+
+
+
     // 4 HOMETASK 11 Створити функцію яка приймає масив будь яких объектів, та повертає значення кількості об'єктів в масиві
 
 // let my_arr = ['yes', 23, 'no', false, true, [1,2,4], {a: 12, b: 77}, {user: 'me', age: 22. car: false}];
 
 // function my_func7 (array) {
-//     console.log(array.length)
+//     console.log(array.length);
 
-// }
+// };
 
 // my_func7(my_arr)
 
@@ -208,7 +246,7 @@
 
 
 
-    // при умові, що в масиві лише одне унікальне
+    // Унікальне число. при умові, що в масиві лише одне унікальне
 
 // function uniqueNumber(array) {
     
@@ -266,8 +304,7 @@
 //     let sum = [];
 //     for (let i = 0; i < array1.length && i < array2.length; i++) {
 //         sum.push(array1[i] + array2[i]);
-//     }
-
+//     };
 //     return sum;
 // };
 
@@ -282,18 +319,12 @@
             
 //         if (i >= array1.length) {
 //             sum.push(array2[i]);
-//         };
-
-//         if (i >= array2.length) {
+//         } else if (i >= array2.length) {
 //             sum.push(array1[i]);
-//         };
-
-//         if (i < array1.length && i < array2.length) {
+//         } else {
 //             sum.push(array1[i] + array2[i]);
-//         };
-            
+//         }; 
 //     };
-
 //     return sum;
 // };
 
@@ -307,19 +338,27 @@
 
 // function swap (array, index) {
 
-//     if (index >= array.length - 1 || index < -1*array.length) {
-//         return ('Sorry, no number to swap with. Enter an index number from ' + -1*array.length + ' to ' + (array.length-1))  
+//     if (index < -1*array.length || index >= array.length - 1 || index == -1) {
+//         return (`Sorry, no number to swap with. Enter an index number from ${-1*array.length} to ${array.length-2}, but for -1`)  
 //     }
 
-//     let a = array[index+1]
-//     array[index+1] = array[index]
-//     array[index] = a
-
+//     if (-1*array.length - 1 < index && index < -1) {
+//         // for negative indexes
+//         let a = array[array.length +index +1]
+//         array[array.length+index+1] = array[array.length+index]
+//         array[array.length+index] = a
+//     } else {
+//         // for positive indexes
+//         let a = array[index+1]
+//         array[index+1] = array[index]
+//         array[index] = a
+//     }
 
 //     return array;
 
 // }
-// console.log(swap([1, 2, 3, 5, 10, 67, 4], 2)) //некоректно працює з мінусовим індексом, чому? swap([1, 2, 3, 5, 10, 67, 4], -3)
+// console.log([1, 2, 3, 5, 10, 67, 4])
+// console.log(swap([1, 2, 3, 5, 10, 67, 4], -3))
 
 
     // 4 HOMETASK 15 створити функцію яка буде переносити елементи з значенням 0 у кінець 
