@@ -60,6 +60,21 @@
     // -- changeYear (newValue) - змінює рік випуску на значення newValue
     // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і доавляет його в поточний об'єкт car
 
+// DECLARING FUNCTIONS
+
+// function myFunc(num) {
+//     console.log(num * 20);
+// }
+// myFunc(10);
+// let myFunc1 = function(num) {
+//     console.log(num * 20);
+// }
+// myFunc1(100);
+// let myFunc2 = (num) => {
+//     console.log(num * 20)
+// };
+// myFunc2(1000);
+
 // let car ={
 //     model: 'audi',
 //     producer: 'Some factory',
@@ -75,7 +90,7 @@
 //     },
     
 //     increaseMaxSpeed: function(newSpeed){
-//         this.maxSpeed = this.maxSpeed + newSpeed;
+//         this.maxSpeed = this.maxSpeed + newSpeed; //  this.maxSpeed += newSpeed;
 //         console.log(this);
 //     },
 
@@ -244,7 +259,7 @@
     // --Створити 10 попелюшок , покласти їх в масив
     // --Сторити об'єкт типу "принц" за допомоги функції конструктора з полями ім'я, вік, туфелька яку він знайшов, та функцію "пошук попелюшки"
     // -- функція повинна приймати масив попелюшок, та шукає ту котра йому підходить
-        
+// TODO: dorobiti zavdanie s metodom dlja princa
 // class Cinderella {
 //     constructor(name, age, footSize) {
 //         this.name = name;

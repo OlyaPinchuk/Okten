@@ -89,6 +89,7 @@
 
 
 
+
 // NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW NEW
 // =======================================================================================================================================================================
     // 4 HOMETASK 6 - створити функцію яка виводить масив
