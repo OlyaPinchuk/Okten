@@ -282,7 +282,7 @@
     // Перевірку робити при натисканні на кнопку
         
     
-    
+// ======================================================================================================================================================= 
         
 // let input = document.getElementById('thisInput')
 // let submitButton = document.getElementById('submit')
@@ -296,20 +296,20 @@
 
 // =================================================/
 
-let textArea = document.getElementById('textarea');
+// let textArea = document.getElementById('textarea');
 
-textArea.onchange = () => {
+// textArea.onchange = () => {
     
-    localStorage.setItem('userText', `${textArea.value}`)
-}
+//     localStorage.setItem('userText', `${textArea.value}`)
+// }
 
 
-document.addEventListener('DOMContentLoaded', (ev) => {
+// document.addEventListener('DOMContentLoaded', (ev) => {
 
-    let user = localStorage.getItem('userText')
-    textArea.value = user
-    console.log(user)
-})
+//     let user = localStorage.getItem('userText')
+//     textArea.value = user
+//     console.log(user)
+// })
 
 
         
