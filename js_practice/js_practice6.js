@@ -1,83 +1,5 @@
-// let numbers = [2, 6, 7, 8, 1, 11, 67, 3, 89, 34567, 9];
-// let names = ['Jade', 'Karina', 'Ni', 'Anna', 'Olivia'];
-// let users = [
-//     {name: 'Ol', age: 24},
-//     {name: 'Tan', age: 56},
-//     {name: 'Fun', age: 33},
-//     {name: 'Kar', age: 13},
-//     {name: 'Mel', age: 17}
-// ];
 
-
-// let sort = numbers.sort((a, b) => {
-//     // console.log(a);
-//     // console.log(b);
-//     // return -1;
-//     // return a - b;
-//     // return 1;
-//     // return b - a;
-// })
-
-// console.log(sort);
-
-// let sort = names.sort((a, b) => {
-//     if (a > b) {
-//         return -1
-//     }
-//     return 1
-// })
-
-// // let sort = names.sort()
-
-// console.log(sort) //мутує вхідний
-
-
-// let filter = numbers.filter((value, index, array) => {
-//     // console.log(value);
-//     // console.log(index);
-//     // console.log(array);
-//     // return true;
-//     // return false;
-//     // return value > 30;
-
-// })
-
-// let filter = numbers.filter((value, index, array) => value > 30 || value == 11)
-
-// console.log(filter)
-// console.log(numbers)
-
-
-// let each = names.forEach(element => {
-//     // console.log(element);
-//     if (element.length > 4){
-//         return; //тут працює як скіп
-//     }
-
-//     console.log(element)
-// });
-
-// let map = numbers.map((value, index, array) => { ////проходить по ел і шось з ними робить, скільки зайшло ел стільки і на виході
-//     if (value > 30)
-//     return value * index;
-// });
-
-// console.log(map)
-// console.log(numbers) ////силочний елемент буде мутувати
-
-
-// let map = users.map((user) => {
-//     if (user.age >= 18) {
-//         user.car = true;
-//         return user;
-//     }
-// })
-
-// console.log(map)
-
-
-
-// переписати на однострочники
+// HOMETASK
     // - создать массив с 20 числами.
     // -- при помощи метода sort и колбека  отсортировать массив.
     // -- при помощи метода sort и колбека отсортировать массив в ниспадающем напралении.
@@ -87,7 +9,7 @@
     // -- перебрать массив при помощи map() и получить новый массив в котором все значения будут в 3 раза больше
 
 
-let numbers = [2, 6, 7, 99, 33, 5, 7, 8 , 55, 67, 98, 0, 3, 6, 7, 8, 60, 30, 100];
+// let numbers = [2, 6, 7, 99, 33, 5, 7, 8 , 55, 67, 98, 0, 3, 6, 7, 8, 60, 30, 100];
 
 // -- при помощи метода sort и колбека  отсортировать массив.
 // -- при помощи метода sort и колбека отсортировать массив в ниспадающем напралении.
@@ -99,7 +21,7 @@ let numbers = [2, 6, 7, 99, 33, 5, 7, 8 , 55, 67, 98, 0, 3, 6, 7, 8, 60, 30, 100
 // // console.log(sort);
 
 
-// -- при помощи filter получить числа кратные 3
+    // -- при помощи filter получить числа кратные 3
 // let filter = numbers.filter((value, index, array) => {
 //     if (!(value % 3)) {
 //         return true;
@@ -135,6 +57,9 @@ let numbers = [2, 6, 7, 99, 33, 5, 7, 8 , 55, 67, 98, 0, 3, 6, 7, 8, 60, 30, 100
 // console.log(numbers);
 
 
+
+// ============================================================================================================================================
+    
     // - создать массив со словами на 15-20 элементов.
     // -- отсортировать его по алфавиту в восходящем порядке.
     // -- отсортировать его по алфавиту  в нисходящем порядке.
@@ -142,7 +67,7 @@ let numbers = [2, 6, 7, 99, 33, 5, 7, 8 , 55, 67, 98, 0, 3, 6, 7, 8, 60, 30, 100
     // -- перебрать массив при помощи map() и получить новый массив в котором все значения будут со 
     // знаком "!" в конце
 
-let words = ['hi', 'you', 'how', 'are', 'things', 'at', 'your', 'place'];
+// let words = ['hi', 'you', 'how', 'are', 'things', 'at', 'your', 'place'];
 
     // -- отсортировать его по алфавиту в восходящем порядке.
 // let sortedWords = words.sort()
@@ -182,6 +107,8 @@ let words = ['hi', 'you', 'how', 'are', 'things', 'at', 'your', 'place'];
 
 // console.log(mapWords);
 
+
+// ===============================================================================================================================================
     // Все робити через функції масивів (foreach, map ...тд)
     // Дан масив :
     // let users = [ {name: 'vasya', age: 31, status: false}, {name: 'petya', age: 30, status: true}, {name: 'kolya', age: 29, status: true}, {name: 'olya', age: 28, status: false}, {name: 'max', age: 30, status: true}, {name: 'anya', age: 31, status: false}, {name: 'oleg', age: 28, status: false}, {name: 'andrey', age: 29, status: true}, {name: 'masha', age: 30, status: true}, {name: 'olya', age: 31, status: false}, {name: 'max', age: 31, status: true} ];
@@ -261,11 +188,6 @@ let words = ['hi', 'you', 'how', 'are', 'things', 'at', 'your', 'place'];
 // });
 
 // console.log(sortedNewUsers);
-
-
-
-    // -- наисать функцию калькулятора с 2мя числами и колбеком
-    // -- наисать функцию калькулятора с 3мя числами и колбеком
 
 
 
