@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {users} from './database/userDB.js'
 import UserComponent from './components/user/UserComponent'
 import AllUsers from './components/allUsers/AllUsers'
+import AllPosts from "./components/allUsers/AllPosts";
 
 
 
@@ -41,17 +42,11 @@ HOMETASK 2
 
                 <button onClick = {this.test}> click me </button>*/}
 
-                <AllUsers/>
 
 
+                <AllPosts/>
 
-
-
-
-
-
-
-
+                {/*{ <AllUsers/>}*/}
 
                 {/* <UserComponent/> */}
 
