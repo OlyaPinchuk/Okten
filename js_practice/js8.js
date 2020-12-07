@@ -426,8 +426,10 @@
 
     // Async await
 
-// let chance = 0.1
+//console.log('Hooo')
 
+// let chance = 0.1
+//
 // function myDay(message) {
 //     return new Promise((resolve, reject) => {
 //         setTimeout( () => {
@@ -437,7 +439,7 @@
 //             }, Math.random() * 4000)
 //         })
 // }
-        
+//
 // function breakfast(food) {
 //     return new Promise((resolve, reject) => {
 //         setTimeout(() => {
@@ -447,7 +449,7 @@
 //         }, Math.random() * 4000)
 //     })
 // }
-        
+//
 // function makeUP(text) {
 //     return new Promise((resolve, reject) => {
 //         setTimeout(() => {
@@ -457,7 +459,7 @@
 //         }, Math.random() * 4000)
 //     })
 // }
-
+//
 // function hair(style) {
 //     return new Promise((resolve, reject) => {
 //         setTimeout(() => {
@@ -467,27 +469,27 @@
 //         }, Math.random() * 4000)
 //     })
 // }
-
-
+//
+//
 // async function day() {
 //     try {
 //     const morning = await myDay('Start the day')
 //     console.log(morning)
-
+//
 //     const food = await breakfast('I eat a salad')
 //     console.log(food)
-
+//
 //     const face = await makeUP('Do nice make up')
 //     console.log(face)
-
+//
 //     const head = await hair('I have curles')
 //     console.log(head)
-
+//
 //     } catch (e) {
 //         console.log(e)
 //     }
 // }
-
+//
 // day()
 
 
