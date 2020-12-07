@@ -44,11 +44,10 @@ HOMETASK 2
 
 
 
-                <AllPosts/>
+                {/*<AllPosts/>*/}
 
-                {/*{ <AllUsers/>}*/}
+                <AllUsers/>
 
-                {/* <UserComponent/> */}
 
             </div>
 

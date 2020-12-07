@@ -15,7 +15,7 @@ class UserComponent extends Component {
         let {item} = this.props
         console.log(item)*/
 
-        let {item} = this.props
+        let {item, func} = this.props
 
         return (
             <div>
@@ -25,7 +25,7 @@ class UserComponent extends Component {
 
                 {item.name} - {item.id}
 
-                <button>chose</button>
+                <button onClick={() => func(item.id)}>chose</button>
 
 
             </div>

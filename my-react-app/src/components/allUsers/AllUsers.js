@@ -5,10 +5,14 @@ class AllUsers extends Component {
 
 //HOMETASK 2
 
-    state = {users: [],
-//    chosen: null
-    }
+    state = {users: [], chosen: null}
 
+
+    onSelect (id) {
+        let {users} = this.state
+        let find = users.find(value => value.id === id)
+        console.log(find)
+    }
 
     render() {
 
@@ -19,7 +23,7 @@ class AllUsers extends Component {
 
                 {
                 users.map(user => {
-                    return (<UserComponent item = {user} key = {user.id} />)
+                    return (<UserComponent item = {user} func = {this.onSelect} key = {user.id}  />)
 
                 })
 
@@ -36,8 +40,6 @@ class AllUsers extends Component {
                 .then(usersFromAPI => {
                     this.setState({users: usersFromAPI})
                 })
-
-            console.log(this.state)
     }
 
 
