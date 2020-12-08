@@ -8,26 +8,36 @@ class AllUsers extends Component {
     state = {users: [], chosen: null}
 
 
-    onSelect (id) {
+    onSelect = (id) => {
         let {users} = this.state
         let find = users.find(value => value.id === id)
-        console.log(find)
+        this.setState({chosen: find})
     }
 
     render() {
 
-        let {users} = this.state
+        let {users, chosen} = this.state
 
         return (
             <div>
 
-                {
-                users.map(user => {
-                    return (<UserComponent item = {user} func = {this.onSelect} key = {user.id}  />)
 
-                })
+                {
+
+                    chosen && <h2> {chosen.id} - {chosen.name} </h2>
 
                 }
+
+                {
+                    users.map(user => {
+                    return (<UserComponent item = {user} func = {this.onSelect} key = {user.id}  />)
+
+                    })
+
+                }
+
+
+
              </div>
 
         )

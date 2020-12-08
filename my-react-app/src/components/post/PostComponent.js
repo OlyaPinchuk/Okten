@@ -4,14 +4,14 @@ class PostComponent extends Component {
 
     render() {
 
-        let {post} = this.props
+        let {post, func} = this.props
 
         return (
             <div>
 
                 {post.id} - {post.title}
 
-                <button> chose </button>
+                <button onClick = {() => {func(post.id)}} > chose </button>
 
             </div>
         );

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {users} from './database/userDB.js'
 import UserComponent from './components/user/UserComponent'
 import AllUsers from './components/allUsers/AllUsers'
-import AllPosts from "./components/allUsers/AllPosts";
+import AllPosts from "./components/allPosts/AllPosts";
 
 
 
@@ -30,7 +30,14 @@ HOMETASK 2
 
         return (
             <div>
- {/*HOMETASK 1
+
+                <AllUsers/>
+                <hr/>
+                <AllPosts/>
+
+
+ {/*====================================================================================================================
+ HOMETASK 1
                 {
                     users.map((user, index) => {
                         return (<UserComponent item = {user} key = {index} />)
@@ -40,14 +47,8 @@ HOMETASK 2
 
   {/*HOMETASK 2
 
-                <button onClick = {this.test}> click me </button>*/}
-
-
-
-                {/*<AllPosts/>*/}
-
-                <AllUsers/>
-
+                <button onClick = {this.test}> click me </button>
+ ====================================================================================================================*/}
 
             </div>
 

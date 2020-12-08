@@ -1,22 +1,42 @@
 import React, {Component} from 'react';
-import PostComponent from "../user/PostComponent";
+import PostComponent from "../post/PostComponent";
 
 class AllPosts extends Component {
 
-    state = {posts: []}
+    state = {posts: [], chosenPost: null}
+
+    chosePost = (id) => {
+
+        let {posts} = this.state
+        let foundPost = posts.find(value => value.id === id)
+        this.setState({chosenPost: foundPost})
+        console.log(foundPost)
+
+    }
+
+
 
     render() {
 
-        let {posts} = this.state
+
+        let {posts, chosenPost} = this.state
 
         return (
             <div>
+
                 {
-                    posts.map(value => {
-                        return (<PostComponent post = {value} key = {value.id} />)
-                    })
+                    chosenPost && <h2> {chosenPost.id} - {chosenPost.title} </h2>
 
                 }
+
+                {
+                    posts.map(value => {
+                        return (<PostComponent post = {value} key = {value.id} func = {this.chosePost} />)
+                    })
+                }
+
+
+
 
             </div>
         );
