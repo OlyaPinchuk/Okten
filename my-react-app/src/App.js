@@ -3,12 +3,16 @@ import {users} from './database/userDB.js'
 import UserComponent from './components/user/UserComponent'
 import AllUsers from './components/allUsers/AllUsers'
 import AllPosts from "./components/allPosts/AllPosts";
-
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from 'react-router-dom'
 
 
 
 class App extends Component {
-
 /*
 HOMETASK 2
     state = {flag: false}
@@ -20,21 +24,41 @@ HOMETASK 2
    ===============================================================================================
 */
 
-
-
-
-
-
     render () {
 
 
         return (
             <div>
 
-                <AllUsers/>
-                <hr/>
-                <AllPosts/>
+                <Router>
 
+                    <div>
+                        <Link to = {'/users'}> users </Link>
+                    </div>
+
+                    {/*<div>
+                        <Link to = {'/posts'}> posts </Link>
+                    </div>*/}
+
+
+                    <Switch>
+                        <Route path = {'/users'}>
+                            <AllUsers/>
+                        </Route>
+
+
+                    </Switch>
+
+
+
+
+
+
+                </Router>
+
+               {/* <AllUsers/>
+                <hr/>
+                <AllPosts/>*/}
 
  {/*====================================================================================================================
  HOMETASK 1

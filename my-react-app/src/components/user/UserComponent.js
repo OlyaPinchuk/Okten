@@ -15,7 +15,7 @@ class UserComponent extends Component {
         let {item} = this.props
         console.log(item)*/
 
-        let {item, func, found} = this.props
+        let {item, func} = this.props
 
         return (
             <div>
