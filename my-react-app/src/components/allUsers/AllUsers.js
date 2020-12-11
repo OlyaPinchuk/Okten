@@ -1,17 +1,16 @@
 import React, {Component} from 'react';
 import UserComponent from '../user/UserComponent.js'
+import {UserServices} from "../../services/UserServices";
 
 class AllUsers extends Component {
+//HOMETASK 2,3
 
-//HOMETASK 2
+    userService = new UserServices()
 
     state = {users: [], chosen: null}
 
-
     onSelect = (id) => {
-        let {users} = this.state
-        let find = users.find(value => value.id === id)
-        this.setState({chosen: find})
+       this.userService.getUserById(id).then(value => this.setState({chosen: value}))
     }
 
     render() {
@@ -22,21 +21,16 @@ class AllUsers extends Component {
             <div>
 
 
+
                 {
-
                     chosen && <h2> {chosen.id} - {chosen.name} </h2>
-
                 }
 
                 {
                     users.map(user => {
                     return (<UserComponent item = {user} func = {this.onSelect} key = {user.id}  />)
-
                     })
-
                 }
-
-
 
              </div>
 
@@ -44,16 +38,9 @@ class AllUsers extends Component {
     }
 
     componentDidMount() {
-         this.users = [];
-            fetch('https://jsonplaceholder.typicode.com/users')
-                .then(value => value.json())
-                .then(usersFromAPI => {
-                    this.setState({users: usersFromAPI})
-                })
+         this.userService.getAllUsers().then(value => this.setState({users: value}))
+
     }
-
-
-
 }
 
 export default AllUsers;
