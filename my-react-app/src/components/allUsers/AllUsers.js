@@ -3,7 +3,6 @@ import UserComponent from '../user/UserComponent.js'
 import {UserServices} from "../../services/UserServices";
 
 class AllUsers extends Component {
-//HOMETASK 2,3
 
     userService = new UserServices()
 
@@ -20,8 +19,6 @@ class AllUsers extends Component {
         return (
             <div>
 
-
-
                 {
                     chosen && <h2> {chosen.id} - {chosen.name} </h2>
                 }
@@ -33,7 +30,6 @@ class AllUsers extends Component {
                 }
 
              </div>
-
         )
     }
 

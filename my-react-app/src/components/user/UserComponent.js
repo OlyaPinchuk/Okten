@@ -7,7 +7,6 @@ import React, {Component} from 'react';
 
 class UserComponent extends Component {
 
-
     render () {
 
 /*HOMETASK 1
@@ -26,8 +25,6 @@ class UserComponent extends Component {
                 {item.name} - {item.id}
 
                 <button onClick={() => func(item.id)}>chose</button>
-
-
 
             </div>
 
