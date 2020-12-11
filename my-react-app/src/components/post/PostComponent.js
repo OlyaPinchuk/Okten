@@ -9,7 +9,7 @@ class PostComponent extends Component {
         return (
             <div>
 
-                {post.id} - {post.title}
+                {post.userId} - {post.id} - {post.title}
 
                 <button onClick = {() => {func(post.id)}} > chose </button>
 

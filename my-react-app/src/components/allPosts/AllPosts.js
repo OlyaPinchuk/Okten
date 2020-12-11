@@ -25,7 +25,7 @@ class AllPosts extends Component {
             <div>
 
                 {
-                    chosenPost && <h2> {chosenPost.id} - {chosenPost.title} </h2>
+                    chosenPost && <h2> {chosenPost.userId} - {chosenPost.id} - {chosenPost.title} </h2>
 
                 }
 
